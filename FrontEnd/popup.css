@@ -16,15 +16,6 @@ header, .header {
     font-size: 1.5rem;
 }
 
-a {
-    color: #4fc3f7;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
 .caption-container {
     display: flex;
     flex-direction: column;
@@ -36,4 +27,27 @@ a:hover {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     width: 100%;
     box-sizing: border-box;
+}
+.btn {
+  font-family: 'MS Sans Serif', sans-serif;
+  font-size: 14px;
+  color: black;
+  padding: 4px 12px;
+  background-color: #C0C0C0;
+  border: 2px solid #fff;
+  border-right-color: #808080;
+  border-bottom-color: #808080;
+  border-left-color: #fff;
+  border-top-color: #fff;
+  box-shadow: inset -1px -1px 0 #000, inset 1px 1px 0 #fff;
+  cursor: pointer;
+}
+
+.btn:active {
+  border: 2px solid #808080;
+  border-right-color: #fff;
+  border-bottom-color: #fff;
+  border-left-color: #808080;
+  border-top-color: #808080;
+  box-shadow: inset 1px 1px 0 #000, inset -1px -1px 0 #fff;
 }
